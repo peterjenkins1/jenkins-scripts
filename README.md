@@ -8,7 +8,7 @@ Groovy scripts for configuring Jenkins via Ansible.
 * Add a job from XML file (This lets you put it in a folder which the Ansible `jenkins_job` module does not)
 * Harden a Jenkins server by disabling all the insecure stuff that a default instalation complains about.
 
-Jenkins has various other ways to achive the above ([JobDSL pluggin](https://github.com/jenkinsci/job-dsl-plugin), [Python Jenkins API bindings](https://pypi.python.org/pypi/jenkinsapi)), but they all have shortcommings so I prefer to use the Jenkins Java API directly. It's pitty there is no documentation for this approach because it's always possible to configure anything you find in the (horrible) Jenkins GUI because that GUI uses the same APIs.
+Jenkins has various other ways to achive the above ([JobDSL plugin](https://github.com/jenkinsci/job-dsl-plugin), [Python Jenkins API bindings](https://pypi.python.org/pypi/jenkinsapi)), but they all have shortcommings so I prefer to use the Jenkins Java API directly. It's pitty there is no documentation for this approach because it's always possible to configure anything you find in the (horrible) Jenkins GUI because that GUI uses the same APIs.
 
 These scripts were used with the `jenkins_script` Ansible module:
 
